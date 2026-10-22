@@ -25,10 +25,24 @@ Mac 💻 ↔ Windows 🖥️ 를 오가며 공부하고, 그 과정을 버전으
 ```
 TD_study/
 ├── projects/        # TouchDesigner 프로젝트 (.toe)
+├── components/      # 직접 만든 커스텀 컴포넌트 (.tox)
+├── TIL/             # 공부 노트 (Today I Learned)
 ├── .gitignore
 ├── .gitattributes
 └── README.md
 ```
+
+## 🧩 Components
+
+`.tox` 파일을 TouchDesigner 네트워크 창으로 드래그 앤 드롭하면 바로 쓸 수 있다.
+
+| 컴포넌트 | 설명 | 파라미터 |
+|---|---|---|
+| [`pulse_color.tox`](components/pulse_color.tox) | 지정한 색이 일정한 속도로 밝아졌다 어두워지는 TOP을 출력 | `Speed` 깜빡이는 속도 (Hz) · `Color` 색상 (RGBA) |
+
+## 📝 TIL
+
+공부한 내용은 [`TIL/`](TIL/)에 날짜별 마크다운 노트로 남긴다. 새 노트는 [`_template.md`](TIL/_template.md)를 복사해서 쓴다.
 
 ## 🔄 Mac ↔ Windows Workflow
 
@@ -67,12 +81,6 @@ cd TD_study
 | 💾 | TouchDesigner는 저장할 때 `NewProject.1.toe`, `.2.toe`처럼 번호를 붙여 새로 저장한다. 버전은 git이 관리하니 정리해도 된다. |
 | 📂 | 이미지·영상 같은 외부 파일은 프로젝트 폴더 안에 두고 **상대 경로**로 불러오기. 절대 경로는 다른 PC에서 깨진다. |
 | 🔢 | 두 PC의 TouchDesigner **버전을 맞춰** 두면 파일 호환 문제를 피할 수 있다. |
-
-## 📚 Study Log
-
-| 날짜 | 주제 | 프로젝트 | 메모 |
-|---|---|---|---|
-| 2026-10-22 | 저장소 세팅 | `NewProject.toe` | 첫 프로젝트 생성 |
 
 ## 🔗 References
 
