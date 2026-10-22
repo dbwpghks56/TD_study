@@ -1,0 +1,7 @@
+* text=auto
+*.toe binary
+*.tox binary
+*.png binary
+*.jpg binary
+*.mov binary
+*.mp4 binary

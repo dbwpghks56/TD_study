@@ -1,1 +1,11 @@
+# macOS
 .DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# TouchDesigner
+Backup/
+CrashAutoSave*.toe
+*.dmp
