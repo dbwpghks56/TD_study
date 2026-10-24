@@ -29,3 +29,4 @@ TouchDesigner를 공부하면서 배운 것을 날짜별로 정리한다.
 | 2026-10-22 | [커스텀 컴포넌트 만들기: pulse_color](2026-10-22-pulse-color-component.md) | `Base COMP` `Custom Parameter` `LFO CHOP` `Constant TOP` |
 | 2026-10-24 | [noise](2026-10-24-noise.md) |  |
 | 2026-10-24 | [sop](2026-10-24-sop.md) |  |
+| 2026-10-24 | [instancing](2026-10-24-instancing.md) |  |
