@@ -27,6 +27,9 @@ TD_study/
 ├── projects/        # TouchDesigner 프로젝트 (.toe)
 ├── components/      # 직접 만든 커스텀 컴포넌트 (.tox)
 ├── TIL/             # 공부 노트 (Today I Learned)
+├── new_til.sh       # 새 TIL 노트 생성 (macOS / Git Bash)
+├── new_til.ps1      # 새 TIL 노트 생성 (Windows PowerShell)
+├── new_til.bat      # new_til.ps1 더블클릭 런처
 ├── .gitignore
 ├── .gitattributes
 └── README.md
@@ -42,7 +45,7 @@ TD_study/
 
 ## 📝 TIL
 
-공부한 내용은 [`TIL/`](TIL/)에 날짜별 마크다운 노트로 남긴다. 새 노트는 [`_template.md`](TIL/_template.md)를 복사해서 쓴다.
+공부한 내용은 [`TIL/`](TIL/)에 날짜별 마크다운 노트로 남긴다. 새 노트는 루트의 `new_til.sh`(macOS) 또는 `new_til.bat`(Windows)를 실행하면 [`_template.md`](TIL/_template.md) 기준으로 오늘 날짜 파일이 생긴다.
 
 ## 🔄 Mac ↔ Windows Workflow
 
