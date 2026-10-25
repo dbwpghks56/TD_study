@@ -31,3 +31,4 @@ TouchDesigner를 공부하면서 배운 것을 날짜별로 정리한다.
 | 2026-10-24 | [sop](2026-10-24-sop.md) |  |
 | 2026-10-24 | [instancing](2026-10-24-instancing.md) |  |
 | 2026-10-25 | [UV_map](2026-10-25-UV_map.md) |  |
+| 2026-10-25 | [feedback](2026-10-25-feedback.md) |  |
